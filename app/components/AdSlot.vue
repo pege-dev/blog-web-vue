@@ -40,8 +40,8 @@ onMounted(() => {
       class="bg-gray-100 dark:bg-card-dark border-2 border-dashed border-gray-300 dark:border-border-dark rounded-lg p-8 text-center"
     >
       <Icon name="solar:widget-5-bold" class="text-4xl text-gray-400 dark:text-gray-600 mb-2" />
-      <p class="text-sm text-gray-500 dark:text-gray-400 font-sans">Ad Placement</p>
-      <p class="text-xs text-gray-400 dark:text-gray-500 font-sans mt-1">Configure ad-slot in component props</p>
+      <p class="text-sm text-gray-500 dark:text-gray-400 font-sans">Slot Iklan</p>
+      <p class="text-xs text-gray-400 dark:text-gray-500 font-sans mt-1">Konfigurasi ad-slot di props komponen</p>
     </div>
   </div>
 </template>

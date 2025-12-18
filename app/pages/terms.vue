@@ -4,20 +4,20 @@ definePageMeta({
 })
 
 useSeoMeta({
-  title: 'Terms of Service - The Daily Blog',
-  description: 'Read the terms and conditions for using The Daily Blog website.',
-  ogTitle: 'Terms of Service - The Daily Blog',
-  ogDescription: 'Terms and conditions for using our website.',
+  title: 'Syarat & Ketentuan - ideidetsploshad',
+  description: 'Baca syarat dan ketentuan penggunaan website ideidetsploshad. Dengan mengakses situs ini, Anda menyetujui ketentuan yang berlaku.',
+  ogTitle: 'Syarat & Ketentuan - ideidetsploshad',
+  ogDescription: 'Syarat dan ketentuan penggunaan website kami.',
   twitterCard: 'summary'
 })
 
 const sections = [
-  { id: 'introduction', title: 'Introduction', icon: 'solar:info-circle-linear' },
-  { id: 'responsibilities', title: 'User Responsibilities', icon: 'solar:user-linear' },
-  { id: 'intellectual-property', title: 'Intellectual Property', icon: 'solar:copyright-linear' },
-  { id: 'content-guidelines', title: 'Content Guidelines', icon: 'solar:document-text-linear' },
-  { id: 'disclaimers', title: 'Disclaimers', icon: 'solar:danger-triangle-linear' },
-  { id: 'contact', title: 'Contact Us', icon: 'solar:letter-linear' }
+  { id: 'introduction', title: 'Pendahuluan', icon: 'solar:info-circle-linear' },
+  { id: 'responsibilities', title: 'Tanggung Jawab Pengguna', icon: 'solar:user-linear' },
+  { id: 'intellectual-property', title: 'Hak Kekayaan Intelektual', icon: 'solar:copyright-linear' },
+  { id: 'content-guidelines', title: 'Pedoman Konten', icon: 'solar:document-text-linear' },
+  { id: 'disclaimers', title: 'Disclaimer', icon: 'solar:danger-triangle-linear' },
+  { id: 'contact', title: 'Hubungi Kami', icon: 'solar:letter-linear' }
 ]
 
 const activeSection = ref('introduction')
@@ -28,8 +28,8 @@ const activeSection = ref('introduction')
   <aside class="hidden lg:block w-72 shrink-0">
     <div class="sticky top-24 flex flex-col gap-6 p-6 rounded-xl bg-white dark:bg-surface-dark border border-gray-200 dark:border-border-dark shadow-sm">
       <div class="flex flex-col">
-        <h3 class="text-lg font-bold leading-normal font-display">Table of Contents</h3>
-        <p class="text-gray-500 dark:text-text-secondary text-sm font-normal">Navigate sections</p>
+        <h3 class="text-lg font-bold leading-normal font-display">Daftar Isi</h3>
+        <p class="text-gray-500 dark:text-text-secondary text-sm font-normal">Navigasi bagian</p>
       </div>
       <nav class="flex flex-col gap-2">
         <a
@@ -56,18 +56,18 @@ const activeSection = ref('introduction')
     <div class="mb-10 pb-8 border-b border-gray-200 dark:border-border-dark">
       <div class="flex flex-wrap justify-between items-start gap-6">
         <div class="flex flex-col gap-4 max-w-2xl">
-          <h1 class="text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em] font-display">Terms of Service</h1>
+          <h1 class="text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em] font-display">Syarat & Ketentuan</h1>
           <p class="text-gray-600 dark:text-text-secondary text-lg font-normal leading-relaxed font-display">
-            Please read these terms carefully before using our website. By accessing or using any part of the site, you agree to be bound by these terms.
+            Harap baca syarat dan ketentuan ini dengan seksama sebelum menggunakan website kami. Dengan mengakses atau menggunakan bagian mana pun dari situs ini, Anda setuju untuk terikat dengan ketentuan ini.
           </p>
           <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gray-100 dark:bg-border-dark w-fit">
             <Icon name="solar:calendar-linear" class="text-base text-gray-500 dark:text-text-secondary" />
-            <span class="text-gray-600 dark:text-text-secondary text-sm font-medium font-sans">Effective Date: December 18, 2024</span>
+            <span class="text-gray-600 dark:text-text-secondary text-sm font-medium font-sans">Berlaku Sejak: 18 Desember 2024</span>
           </div>
         </div>
         <button class="flex shrink-0 items-center justify-center gap-2 rounded-lg h-10 px-4 bg-white dark:bg-border-dark border border-gray-200 dark:border-transparent hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-900 dark:text-white text-sm font-bold transition-colors shadow-sm font-sans">
           <Icon name="solar:download-linear" class="text-xl" />
-          <span>Download PDF</span>
+          <span>Unduh PDF</span>
         </button>
       </div>
     </div>
@@ -76,43 +76,43 @@ const activeSection = ref('introduction')
     <div class="flex flex-col gap-12 max-w-[800px]">
       <!-- Section 1 -->
       <section id="introduction" class="scroll-mt-28">
-        <h2 class="text-3xl font-bold leading-tight mb-4 font-display">1. Introduction</h2>
+        <h2 class="text-3xl font-bold leading-tight mb-4 font-display">1. Pendahuluan</h2>
         <div class="text-gray-600 dark:text-text-secondary text-lg leading-relaxed font-sans space-y-4">
           <p>
-            Welcome to The Daily Blog ("Company", "we", "our", "us"). These Terms of Service govern your use of our website operated by The Daily Blog.
+            Selamat datang di ideidetsploshad.info ("Perusahaan", "kami", "milik kami"). Syarat dan Ketentuan Layanan ini mengatur penggunaan Anda atas website kami yang dioperasikan oleh ideidetsploshad.
           </p>
           <p>
-            Our Privacy Policy also governs your use of our Service and explains how we collect, safeguard and disclose information. Your agreement with us includes these Terms and our Privacy Policy.
+            Kebijakan Privasi kami juga mengatur penggunaan Layanan kami dan menjelaskan bagaimana kami mengumpulkan, melindungi, dan mengungkapkan informasi. Persetujuan Anda dengan kami mencakup Syarat ini dan Kebijakan Privasi kami.
           </p>
         </div>
       </section>
 
       <!-- Section 2 -->
       <section id="responsibilities" class="scroll-mt-28">
-        <h2 class="text-3xl font-bold leading-tight mb-4 font-display">2. User Responsibilities</h2>
+        <h2 class="text-3xl font-bold leading-tight mb-4 font-display">2. Tanggung Jawab Pengguna</h2>
         <div class="text-gray-600 dark:text-text-secondary text-lg leading-relaxed font-sans space-y-4">
           <p>
-            As a user of this Service, you may be asked to register with us. You are responsible for ensuring the accuracy of your information.
+            Sebagai pengguna Layanan ini, Anda mungkin diminta untuk mendaftar dengan kami. Anda bertanggung jawab untuk memastikan keakuratan informasi Anda.
           </p>
           <ul class="list-disc pl-5 space-y-2 marker:text-primary">
-            <li>You are responsible for maintaining the safety and security of your identifying information.</li>
-            <li>You must not share your account details with others.</li>
-            <li>You assume all responsibility for activities that occur under your account.</li>
-            <li>You must notify us immediately upon becoming aware of any breach of security.</li>
+            <li>Anda bertanggung jawab untuk menjaga keamanan informasi identitas Anda.</li>
+            <li>Anda tidak boleh membagikan detail akun Anda kepada orang lain.</li>
+            <li>Anda bertanggung jawab penuh atas semua aktivitas yang terjadi di bawah akun Anda.</li>
+            <li>Anda harus segera memberi tahu kami jika mengetahui adanya pelanggaran keamanan.</li>
           </ul>
         </div>
       </section>
 
       <!-- Section 3 -->
       <section id="intellectual-property" class="scroll-mt-28">
-        <h2 class="text-3xl font-bold leading-tight mb-4 font-display">3. Intellectual Property</h2>
+        <h2 class="text-3xl font-bold leading-tight mb-4 font-display">3. Hak Kekayaan Intelektual</h2>
         <div class="text-gray-600 dark:text-text-secondary text-lg leading-relaxed font-sans space-y-4">
           <p>
-            Service and its original content, features and functionality are and will remain the exclusive property of The Daily Blog and its licensors.
+            Layanan dan konten aslinya, fitur, dan fungsionalitas adalah dan akan tetap menjadi milik eksklusif ideidetsploshad dan pemberi lisensinya.
           </p>
           <div class="p-4 rounded-lg bg-primary/5 dark:bg-border-dark/50 border-l-4 border-primary">
             <p class="text-sm italic">
-              <strong>Note on User Content:</strong> While you retain ownership of any comments or articles you submit, by posting, you grant us a non-exclusive license to use, reproduce, and display such content.
+              <strong>Catatan tentang Konten Pengguna:</strong> Meskipun Anda tetap memiliki kepemilikan atas komentar atau pesan yang Anda kirimkan, dengan memposting, Anda memberikan kami lisensi non-eksklusif untuk menggunakan, mereproduksi, dan menampilkan konten tersebut.
             </p>
           </div>
         </div>
@@ -120,26 +120,26 @@ const activeSection = ref('introduction')
 
       <!-- Section 4 -->
       <section id="content-guidelines" class="scroll-mt-28">
-        <h2 class="text-3xl font-bold leading-tight mb-4 font-display">4. Content Guidelines</h2>
+        <h2 class="text-3xl font-bold leading-tight mb-4 font-display">4. Pedoman Konten</h2>
         <div class="text-gray-600 dark:text-text-secondary text-lg leading-relaxed font-sans space-y-4">
-          <p>You may not post content that:</p>
+          <p>Anda tidak boleh memposting konten yang:</p>
           <ul class="list-disc pl-5 space-y-2 marker:text-primary">
-            <li>Is unlawful, threatening, abusive, harassing, defamatory, or fraudulent.</li>
-            <li>Victimizes, harasses, degrades, or intimidates an individual or group.</li>
-            <li>Contains software viruses or any code designed to disrupt or damage.</li>
+            <li>Melanggar hukum, mengancam, kasar, melecehkan, memfitnah, atau menipu.</li>
+            <li>Menjadikan korban, melecehkan, merendahkan, atau mengintimidasi individu atau kelompok.</li>
+            <li>Mengandung virus perangkat lunak atau kode apa pun yang dirancang untuk mengganggu atau merusak.</li>
           </ul>
         </div>
       </section>
 
       <!-- Section 5 -->
       <section id="disclaimers" class="scroll-mt-28">
-        <h2 class="text-3xl font-bold leading-tight mb-4 font-display">5. Disclaimers</h2>
+        <h2 class="text-3xl font-bold leading-tight mb-4 font-display">5. Disclaimer</h2>
         <div class="text-gray-600 dark:text-text-secondary text-lg leading-relaxed font-sans space-y-4">
           <p>
-            The Service is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind, whether express or implied.
+            Layanan disediakan atas dasar "SEBAGAIMANA ADANYA" dan "SEBAGAIMANA TERSEDIA" tanpa jaminan apa pun, baik tersurat maupun tersirat.
           </p>
           <p>
-            The Daily Blog does not warrant that the Service will function uninterrupted, secure or available at any particular time or location.
+            ideidetsploshad tidak menjamin bahwa Layanan akan berfungsi tanpa gangguan, aman, atau tersedia pada waktu atau lokasi tertentu.
           </p>
         </div>
       </section>
@@ -147,17 +147,17 @@ const activeSection = ref('introduction')
       <!-- Section 6: Contact -->
       <section id="contact" class="scroll-mt-28 pt-8 border-t border-gray-200 dark:border-border-dark">
         <div class="bg-gray-100 dark:bg-surface-dark rounded-xl p-8 border border-gray-200 dark:border-border-dark">
-          <h2 class="text-2xl font-bold leading-tight mb-4 font-display">Questions regarding these terms?</h2>
+          <h2 class="text-2xl font-bold leading-tight mb-4 font-display">Pertanyaan tentang syarat ini?</h2>
           <p class="text-gray-600 dark:text-text-secondary font-sans mb-6">
-            If you have any questions or concerns about our Terms of Service, please contact our legal team.
+            Jika Anda memiliki pertanyaan atau kekhawatiran tentang Syarat dan Ketentuan kami, silakan hubungi tim kami.
           </p>
           <div class="flex flex-col sm:flex-row gap-4">
-            <a href="mailto:legal@dailyblog.com" class="flex items-center justify-center gap-2 px-6 py-3 bg-primary hover:bg-blue-600 text-white dark:text-surface-dark font-bold rounded-lg transition-colors font-sans">
-              <Icon name="solar:letter-bold" class="text-xl" />
-              legal@dailyblog.com
-            </a>
-            <NuxtLink to="/contact" class="flex items-center justify-center gap-2 px-6 py-3 bg-white dark:bg-border-dark hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-900 dark:text-white border border-gray-200 dark:border-transparent font-bold rounded-lg transition-colors font-sans">
-              Contact Support
+            <NuxtLink to="/contact" class="flex items-center justify-center gap-2 px-6 py-3 bg-primary hover:bg-blue-600 text-white dark:text-surface-dark font-bold rounded-lg transition-colors font-sans">
+              <Icon name="solar:chat-round-dots-bold" class="text-xl" />
+              Hubungi Kami
+            </NuxtLink>
+            <NuxtLink to="/" class="flex items-center justify-center gap-2 px-6 py-3 bg-white dark:bg-border-dark hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-900 dark:text-white border border-gray-200 dark:border-transparent font-bold rounded-lg transition-colors font-sans">
+              Kembali ke Beranda
             </NuxtLink>
           </div>
         </div>

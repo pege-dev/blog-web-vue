@@ -8,19 +8,17 @@ interface Section {
 interface Props {
   sections: Section[]
   activeSection?: string
-  contactEmail?: string
 }
 
 withDefaults(defineProps<Props>(), {
-  activeSection: '',
-  contactEmail: 'privacy@dailyblog.com'
+  activeSection: ''
 })
 </script>
 
 <template>
   <aside class="hidden lg:block w-64 shrink-0">
     <div class="sticky top-28">
-      <h3 class="text-sm font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-4 px-2 font-sans">On this page</h3>
+      <h3 class="text-sm font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-4 px-2 font-sans">Daftar Isi</h3>
       <nav class="space-y-1">
         <a
           v-for="section in sections"
@@ -39,14 +37,14 @@ withDefaults(defineProps<Props>(), {
       
       <!-- Contact Card -->
       <div class="mt-8 p-4 rounded-xl bg-slate-50 dark:bg-card-dark border border-slate-200 dark:border-border-dark">
-        <p class="text-xs font-medium text-slate-500 dark:text-slate-400 mb-3">Have specific questions?</p>
-        <a 
-          :href="`mailto:${contactEmail}`"
+        <p class="text-xs font-medium text-slate-500 dark:text-slate-400 mb-3">Punya pertanyaan?</p>
+        <NuxtLink 
+          to="/contact"
           class="text-sm font-bold text-primary hover:underline flex items-center gap-1"
         >
-          Email Us
+          Hubungi Kami
           <Icon name="solar:arrow-right-linear" class="text-base" />
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </aside>

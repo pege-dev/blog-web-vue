@@ -7,8 +7,8 @@ interface Props {
 
 withDefaults(defineProps<Props>(), {
   variant: 'strip',
-  title: 'Join our newsletter',
-  description: 'Get the best stories delivered to your inbox weekly.'
+  title: 'Bergabung dengan newsletter kami',
+  description: 'Dapatkan cerita terbaik langsung ke inbox kamu setiap minggu.'
 })
 
 const email = ref('')
@@ -38,13 +38,13 @@ const handleSubmit = () => {
             type="email" 
             required
             class="w-full rounded-lg border-none bg-white dark:bg-border-dark px-4 py-2 text-sm text-slate-900 dark:text-white placeholder:text-slate-400 dark:placeholder:text-slate-600 focus:ring-2 focus:ring-primary shadow-sm font-sans" 
-            placeholder="Enter your email"
+            placeholder="Masukkan email kamu"
           />
           <button 
             type="submit"
             class="rounded-lg bg-primary px-4 py-2 text-sm font-bold text-surface-dark hover:bg-primary/90 transition-colors font-sans"
           >
-            Subscribe
+            Langganan
           </button>
         </form>
       </div>
@@ -60,10 +60,10 @@ const handleSubmit = () => {
       <div class="w-full max-w-[960px] flex flex-col items-center text-center gap-6">
         <Icon name="solar:letter-opened-bold" class="text-6xl text-primary/50" />
         <h2 class="text-3xl md:text-5xl font-black font-display tracking-tight text-slate-900 dark:text-white max-w-2xl">
-          Stories worth your time.
+          Cerita yang layak dibaca.
         </h2>
         <p class="text-lg text-slate-600 dark:text-text-secondary max-w-xl font-display">
-          Join 10,000+ subscribers and get our curated selection of articles, interviews, and deep dives sent straight to you.
+          Bergabung dengan 10.000+ pembaca dan dapatkan pilihan artikel, wawancara, dan ulasan mendalam langsung ke inbox kamu.
         </p>
         <form @submit.prevent="handleSubmit" class="w-full max-w-md mt-4">
           <div class="flex flex-col sm:flex-row gap-3">
@@ -78,12 +78,12 @@ const handleSubmit = () => {
               type="submit"
               class="rounded-lg bg-primary px-8 py-3 text-surface-dark font-bold hover:bg-primary/90 transition-colors shadow-md font-sans whitespace-nowrap"
             >
-              Subscribe Free
+              Langganan Gratis
             </button>
           </div>
           <p class="text-xs text-slate-400 dark:text-slate-600 mt-3 font-sans">
-            No spam, unsubscribe anytime. Read our 
-            <NuxtLink to="/privacy" class="underline hover:text-primary">Privacy Policy</NuxtLink>.
+            Tanpa spam, berhenti kapan saja. Baca 
+            <NuxtLink to="/privacy" class="underline hover:text-primary">Kebijakan Privasi</NuxtLink> kami.
           </p>
         </form>
       </div>

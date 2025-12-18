@@ -19,328 +19,352 @@ export interface BlogPost {
 const blogPosts: BlogPost[] = [
   {
     id: '1',
-    slug: 'digital-minimalism',
-    title: 'The Future of Digital Minimalism',
-    excerpt: 'An exploration of how we can reclaim our attention in the age of constant distraction and notification overload.',
+    slug: 'cara-meningkatkan-produktivitas-kerja',
+    title: 'Cara Meningkatkan Produktivitas Kerja di Era Digital',
+    excerpt: 'Temukan strategi efektif untuk meningkatkan produktivitas kerja dengan memanfaatkan teknologi dan manajemen waktu yang tepat.',
     content: `
-      <p>In an era where our attention is constantly being pulled in a thousand different directions, digital minimalism has emerged as a powerful philosophy for reclaiming our focus and mental clarity.</p>
+      <p>Di era digital yang serba cepat ini, produktivitas menjadi kunci kesuksesan dalam karir dan bisnis. Namun, banyak orang justru merasa kewalahan dengan berbagai distraksi digital yang ada. Artikel ini akan membahas cara-cara praktis untuk meningkatkan produktivitas kerja.</p>
       
-      <h2>What is Digital Minimalism?</h2>
-      <p>Digital minimalism is a philosophy of technology use in which you focus your online time on a small number of carefully selected and optimized activities that strongly support things you value, and then happily miss out on everything else.</p>
+      <h2>Mengapa Produktivitas Penting?</h2>
+      <p>Produktivitas bukan hanya tentang bekerja lebih keras, tetapi bekerja lebih cerdas. Dengan produktivitas yang tinggi, Anda dapat menyelesaikan lebih banyak pekerjaan dalam waktu yang sama, memberikan ruang untuk pengembangan diri dan keseimbangan hidup.</p>
       
-      <p>This approach stands in stark contrast to the maximalist mindset that dominates our current relationship with technology—the idea that more connectivity is always better, and that missing out on any potential benefit is a loss.</p>
-      
-      <h2>The Cost of Constant Connectivity</h2>
-      <p>Research has shown that the average person checks their phone 96 times per day. Each of these interruptions fragments our attention and makes it harder to engage in deep, meaningful work.</p>
-      
-      <blockquote>The ability to perform deep work is becoming increasingly rare at exactly the same time it is becoming increasingly valuable in our economy. — Cal Newport</blockquote>
-      
-      <h2>Practical Steps to Digital Minimalism</h2>
-      <p>Here are some actionable steps you can take to embrace digital minimalism:</p>
+      <h2>Strategi Meningkatkan Produktivitas</h2>
+      <p>Berikut adalah beberapa strategi yang terbukti efektif:</p>
       <ul>
-        <li><strong>Audit your digital tools:</strong> Make a list of all the apps and services you use regularly. For each one, ask yourself: Does this directly support something I deeply value?</li>
-        <li><strong>Establish phone-free zones:</strong> Designate certain times and places where phones are not allowed—like the dinner table or the first hour after waking up.</li>
-        <li><strong>Batch your communication:</strong> Instead of responding to messages as they arrive, set specific times to check and respond to emails and messages.</li>
-        <li><strong>Embrace boredom:</strong> Resist the urge to fill every moment of downtime with digital stimulation. Boredom can be a catalyst for creativity.</li>
+        <li><strong>Teknik Pomodoro:</strong> Bekerja fokus selama 25 menit, istirahat 5 menit. Ulangi siklus ini untuk menjaga konsentrasi.</li>
+        <li><strong>Prioritas dengan Metode Eisenhower:</strong> Kategorikan tugas berdasarkan urgensi dan kepentingan untuk fokus pada hal yang benar-benar penting.</li>
+        <li><strong>Batasi Notifikasi:</strong> Matikan notifikasi yang tidak penting selama jam kerja produktif.</li>
+        <li><strong>Single-tasking:</strong> Fokus pada satu tugas hingga selesai sebelum beralih ke tugas lain.</li>
       </ul>
       
-      <h2>The Benefits of Going Minimal</h2>
-      <p>Those who have embraced digital minimalism report significant improvements in their quality of life:</p>
+      <blockquote>Produktivitas bukanlah tentang melakukan lebih banyak hal, tetapi tentang melakukan hal yang tepat dengan cara yang efisien.</blockquote>
+      
+      <h2>Tools Digital untuk Produktivitas</h2>
+      <p>Manfaatkan teknologi untuk mendukung produktivitas:</p>
       <ul>
-        <li>Increased focus and productivity</li>
-        <li>Better sleep quality</li>
-        <li>Deeper relationships with friends and family</li>
-        <li>More time for hobbies and creative pursuits</li>
-        <li>Reduced anxiety and improved mental health</li>
+        <li>Aplikasi manajemen tugas seperti Notion atau Trello</li>
+        <li>Timer dan tracker waktu untuk monitoring aktivitas</li>
+        <li>Aplikasi pemblokir distraksi untuk fokus lebih baik</li>
+        <li>Cloud storage untuk akses dokumen dari mana saja</li>
       </ul>
       
-      <h2>Conclusion</h2>
-      <p>Digital minimalism isn't about rejecting technology—it's about being intentional with how we use it. By carefully curating our digital lives, we can harness the benefits of technology while avoiding its pitfalls.</p>
-      
-      <p>The goal is not to live without technology, but to live with technology in a way that supports our values and enhances our lives rather than diminishing them.</p>
+      <h2>Kesimpulan</h2>
+      <p>Meningkatkan produktivitas adalah proses berkelanjutan yang membutuhkan konsistensi dan evaluasi rutin. Mulailah dengan satu atau dua strategi, lalu kembangkan seiring waktu. Ingat, tujuan utamanya adalah mencapai hasil maksimal dengan tetap menjaga kesehatan dan keseimbangan hidup.</p>
     `,
-    category: 'Lifestyle',
-    date: 'Oct 26, 2023',
-    readTime: '8 min read',
+    category: 'Produktivitas',
+    date: '18 Des 2024',
+    readTime: '7 menit baca',
     imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80',
     author: {
-      name: 'Sarah Chen',
-      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80',
-      role: 'Senior Editor'
+      name: 'Ahmad Rizki',
+      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80',
+      role: 'Editor Utama'
     },
-    tags: ['Productivity', 'Technology', 'Wellness', 'Focus']
+    tags: ['Produktivitas', 'Manajemen Waktu', 'Tips Kerja', 'Digital']
   },
   {
     id: '2',
-    slug: 'serif-typography',
-    title: 'Understanding Serif Typography',
-    excerpt: 'Why font choice matters more than you think in modern web design and how to pair them effectively.',
+    slug: 'panduan-desain-ui-modern',
+    title: 'Panduan Lengkap Desain UI Modern untuk Pemula',
+    excerpt: 'Pelajari prinsip-prinsip dasar desain UI modern yang akan membantu Anda menciptakan antarmuka yang menarik dan user-friendly.',
     content: `
-      <p>Typography is one of the most powerful tools in a designer's arsenal. The fonts we choose communicate far more than just the words they display—they convey mood, personality, and credibility.</p>
+      <p>Desain User Interface (UI) yang baik adalah fondasi dari pengalaman pengguna yang menyenangkan. Dalam panduan ini, kita akan membahas prinsip-prinsip dasar desain UI modern yang dapat diterapkan oleh pemula.</p>
       
-      <h2>The Anatomy of Serif Fonts</h2>
-      <p>Serif fonts are characterized by small decorative strokes (called "serifs") at the ends of their letterforms. These serifs originated from the Roman alphabet inscriptions, where the stone carvers would add finishing strokes to their letters.</p>
-      
-      <p>Common serif fonts include Times New Roman, Georgia, Garamond, and the increasingly popular Newsreader—which we use here at The Daily Blog.</p>
-      
-      <h2>When to Use Serif Fonts</h2>
-      <p>Serif fonts excel in certain contexts:</p>
+      <h2>Prinsip Dasar Desain UI</h2>
+      <p>Sebelum memulai mendesain, pahami prinsip-prinsip fundamental berikut:</p>
       <ul>
-        <li><strong>Long-form content:</strong> The serifs help guide the eye along lines of text, making them ideal for articles and books.</li>
-        <li><strong>Print materials:</strong> Serifs were designed for print and still perform beautifully in that medium.</li>
-        <li><strong>Establishing authority:</strong> Serif fonts convey tradition, reliability, and professionalism.</li>
-        <li><strong>Editorial design:</strong> Newspapers and magazines have long relied on serif fonts for their timeless appeal.</li>
+        <li><strong>Konsistensi:</strong> Gunakan elemen visual yang konsisten di seluruh aplikasi atau website.</li>
+        <li><strong>Hierarki Visual:</strong> Atur elemen berdasarkan tingkat kepentingannya menggunakan ukuran, warna, dan posisi.</li>
+        <li><strong>Whitespace:</strong> Berikan ruang kosong yang cukup untuk membuat desain terasa bersih dan mudah dibaca.</li>
+        <li><strong>Aksesibilitas:</strong> Pastikan desain dapat diakses oleh semua pengguna, termasuk yang memiliki keterbatasan.</li>
       </ul>
       
-      <h2>Pairing Serifs with Sans-Serifs</h2>
-      <p>One of the most effective typographic techniques is pairing a serif font with a sans-serif font. This creates visual contrast and hierarchy while maintaining harmony.</p>
-      
-      <blockquote>Good typography is invisible. Bad typography is everywhere. — Oliver Reichenstein</blockquote>
-      
-      <p>Some classic pairings include:</p>
+      <h2>Tren Desain UI 2024</h2>
+      <p>Beberapa tren yang sedang populer tahun ini:</p>
       <ul>
-        <li>Newsreader (serif) + Noto Sans (sans-serif)</li>
-        <li>Playfair Display (serif) + Source Sans Pro (sans-serif)</li>
-        <li>Merriweather (serif) + Open Sans (sans-serif)</li>
+        <li>Glassmorphism dengan efek blur dan transparansi</li>
+        <li>Dark mode sebagai opsi standar</li>
+        <li>Micro-interactions untuk feedback yang lebih baik</li>
+        <li>Typography yang bold dan ekspresif</li>
       </ul>
       
-      <h2>The Future of Serif Typography</h2>
-      <p>After years of sans-serif dominance in digital design, we're seeing a renaissance of serif fonts on the web. High-resolution displays have made serifs more legible than ever, and designers are rediscovering their warmth and character.</p>
+      <blockquote>Desain yang baik adalah desain yang tidak terlihat. Pengguna harus fokus pada konten, bukan pada desainnya.</blockquote>
       
-      <p>Variable fonts are also opening new possibilities, allowing designers to fine-tune weight, width, and other properties for optimal readability across devices.</p>
+      <h2>Tools untuk Desain UI</h2>
+      <p>Beberapa tools populer yang bisa Anda gunakan:</p>
+      <ul>
+        <li><strong>Figma:</strong> Tool kolaboratif berbasis web yang sangat populer</li>
+        <li><strong>Adobe XD:</strong> Solusi lengkap dari Adobe untuk desain UI/UX</li>
+        <li><strong>Sketch:</strong> Pilihan favorit untuk pengguna Mac</li>
+      </ul>
+      
+      <h2>Tips untuk Pemula</h2>
+      <p>Mulailah dengan mempelajari desain yang sudah ada. Analisis mengapa desain tersebut berhasil, lalu praktikkan dengan membuat proyek sederhana. Konsistensi dalam berlatih adalah kunci untuk menjadi desainer UI yang handal.</p>
     `,
-    category: 'Design',
-    date: 'Oct 24, 2023',
-    readTime: '6 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80',
+    category: 'Desain',
+    date: '17 Des 2024',
+    readTime: '8 menit baca',
+    imageUrl: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&q=80',
     author: {
-      name: 'Marcus Webb',
-      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80',
-      role: 'Design Lead'
+      name: 'Sari Dewi',
+      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80',
+      role: 'Desainer UI/UX'
     },
-    tags: ['Typography', 'Design', 'Web Design', 'Fonts']
+    tags: ['Desain', 'UI/UX', 'Tutorial', 'Pemula']
   },
   {
     id: '3',
-    slug: 'week-in-tokyo',
-    title: 'A Week in Tokyo',
-    excerpt: 'Exploring the hidden alleys, neon lights, and incredible culinary scene of Shinjuku.',
+    slug: 'wisata-alam-indonesia-tersembunyi',
+    title: 'Destinasi Wisata Alam Indonesia yang Masih Tersembunyi',
+    excerpt: 'Jelajahi keindahan alam Indonesia yang belum banyak diketahui wisatawan. Dari pantai eksotis hingga pegunungan yang memukau.',
     content: `
-      <p>Tokyo is a city of contrasts—ancient temples stand in the shadow of gleaming skyscrapers, and quiet residential streets give way to neon-lit entertainment districts. After spending a week exploring this incredible metropolis, I'm convinced it's one of the most fascinating cities on Earth.</p>
+      <p>Indonesia memiliki kekayaan alam yang luar biasa. Selain destinasi populer seperti Bali dan Raja Ampat, masih banyak tempat indah yang belum terjamah wisatawan. Mari kita jelajahi beberapa di antaranya.</p>
       
-      <h2>Day 1-2: Shinjuku and Shibuya</h2>
-      <p>My journey began in Shinjuku, the bustling commercial hub of Tokyo. The sheer scale of Shinjuku Station—the world's busiest railway station—is overwhelming at first, but you quickly learn to navigate its labyrinthine corridors.</p>
+      <h2>Pulau Labengki, Sulawesi Tenggara</h2>
+      <p>Sering disebut sebagai "Raja Ampat-nya Sulawesi", Pulau Labengki menawarkan pemandangan karst yang spektakuler, laguna biru jernih, dan kehidupan bawah laut yang kaya. Aksesnya yang cukup sulit membuat tempat ini masih sangat alami.</p>
       
-      <p>The Golden Gai district, with its narrow alleys packed with tiny bars, became my evening haunt. Each bar seats only 6-8 people, creating an intimate atmosphere where conversations with locals flow as freely as the sake.</p>
+      <h2>Danau Kelimutu, Flores</h2>
+      <p>Danau tiga warna yang terletak di puncak Gunung Kelimutu ini menawarkan pemandangan yang magis. Warna air danau yang bisa berubah-ubah menjadikannya fenomena alam yang unik di dunia.</p>
       
-      <h2>Day 3-4: Traditional Tokyo</h2>
-      <p>Seeking respite from the urban intensity, I spent two days exploring Tokyo's traditional side. The Senso-ji Temple in Asakusa, Tokyo's oldest temple, offers a glimpse into Japan's spiritual heritage.</p>
+      <blockquote>Keindahan alam Indonesia tidak ada habisnya. Setiap sudut negeri ini menyimpan pesona yang menunggu untuk ditemukan.</blockquote>
       
-      <blockquote>In Tokyo, the past and future exist simultaneously, creating a unique temporal experience unlike anywhere else in the world.</blockquote>
-      
-      <p>The Meiji Shrine, nestled in a forest in the heart of the city, provides a peaceful escape from the surrounding Harajuku fashion district.</p>
-      
-      <h2>Day 5-6: Food Adventures</h2>
-      <p>Tokyo has more Michelin stars than any other city in the world, but some of the best food I had was at humble ramen shops and izakayas. Highlights included:</p>
+      <h2>Tips Berwisata ke Tempat Tersembunyi</h2>
       <ul>
-        <li><strong>Tsukiji Outer Market:</strong> Fresh sushi for breakfast—a life-changing experience</li>
-        <li><strong>Omoide Yokocho:</strong> Yakitori grilled over charcoal in smoky alleyways</li>
-        <li><strong>Depachika:</strong> Department store basement food halls with incredible variety</li>
-        <li><strong>Late-night ramen:</strong> The perfect end to any evening</li>
+        <li><strong>Riset mendalam:</strong> Cari informasi tentang akses, akomodasi, dan kondisi terkini</li>
+        <li><strong>Persiapan fisik:</strong> Beberapa destinasi membutuhkan trekking atau perjalanan panjang</li>
+        <li><strong>Hormati alam:</strong> Jangan meninggalkan sampah dan ikuti prinsip sustainable tourism</li>
+        <li><strong>Dukung ekonomi lokal:</strong> Gunakan jasa pemandu dan penginapan lokal</li>
       </ul>
       
-      <h2>Day 7: Reflections</h2>
-      <p>A week in Tokyo barely scratches the surface. The city rewards repeated visits, revealing new layers with each exploration. I left with a full camera roll, a satisfied stomach, and plans to return.</p>
+      <h2>Waktu Terbaik Berkunjung</h2>
+      <p>Untuk sebagian besar destinasi alam di Indonesia, musim kemarau (April-Oktober) adalah waktu terbaik untuk berkunjung. Namun, selalu cek kondisi cuaca dan aksesibilitas sebelum berangkat.</p>
+      
+      <h2>Kesimpulan</h2>
+      <p>Indonesia masih menyimpan banyak keajaiban alam yang menunggu untuk dijelajahi. Dengan persiapan yang matang dan sikap bertanggung jawab, Anda bisa menikmati keindahan alam sambil turut melestarikannya untuk generasi mendatang.</p>
     `,
     category: 'Travel',
-    date: 'Oct 22, 2023',
-    readTime: '7 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=80',
+    date: '16 Des 2024',
+    readTime: '6 menit baca',
+    imageUrl: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80',
     author: {
-      name: 'Emma Rodriguez',
-      avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80',
+      name: 'Budi Santoso',
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80',
       role: 'Travel Writer'
     },
-    tags: ['Travel', 'Japan', 'Tokyo', 'Food', 'Culture']
+    tags: ['Travel', 'Indonesia', 'Wisata Alam', 'Petualangan']
   },
   {
     id: '4',
-    slug: 'coding-for-designers',
-    title: 'Coding for Designers',
-    excerpt: 'Bridging the gap between visual design and frontend development to create better products.',
+    slug: 'belajar-programming-dari-nol',
+    title: 'Panduan Belajar Programming dari Nol untuk Pemula',
+    excerpt: 'Mulai perjalanan Anda menjadi programmer dengan panduan lengkap ini. Dari memilih bahasa pemrograman hingga membangun proyek pertama.',
     content: `
-      <p>The line between design and development is blurring. Today's most effective designers understand code, and the best developers have an eye for design. This convergence is creating better products and more collaborative teams.</p>
+      <p>Belajar programming mungkin terasa menakutkan bagi pemula, tetapi dengan pendekatan yang tepat, siapa pun bisa menguasainya. Artikel ini akan memandu Anda memulai perjalanan menjadi programmer.</p>
       
-      <h2>Why Designers Should Learn to Code</h2>
-      <p>Understanding code doesn't mean you need to become a full-stack developer. Even a basic understanding of HTML, CSS, and JavaScript can transform how you approach design:</p>
+      <h2>Mengapa Belajar Programming?</h2>
+      <p>Programming adalah skill yang sangat berharga di era digital. Beberapa alasan untuk belajar programming:</p>
       <ul>
-        <li><strong>Better communication:</strong> Speaking the same language as developers reduces friction and misunderstandings.</li>
-        <li><strong>Realistic designs:</strong> Understanding technical constraints helps you design solutions that are actually buildable.</li>
-        <li><strong>Faster iteration:</strong> Being able to prototype in code speeds up the design process.</li>
-        <li><strong>Career growth:</strong> Hybrid skills are increasingly valuable in the job market.</li>
+        <li>Peluang karir yang luas dan gaji kompetitif</li>
+        <li>Kemampuan untuk menciptakan solusi digital</li>
+        <li>Melatih kemampuan problem-solving</li>
+        <li>Fleksibilitas bekerja dari mana saja</li>
       </ul>
       
-      <h2>Where to Start</h2>
-      <p>If you're a designer looking to learn code, here's a recommended path:</p>
-      
-      <h3>1. HTML & CSS (Week 1-4)</h3>
-      <p>Start with the fundamentals. HTML provides structure, CSS provides style. Together, they're the foundation of every website.</p>
-      
-      <h3>2. CSS Frameworks (Week 5-6)</h3>
-      <p>Learn Tailwind CSS or Bootstrap to speed up your styling workflow. These frameworks provide pre-built components and utility classes.</p>
-      
-      <h3>3. JavaScript Basics (Week 7-10)</h3>
-      <p>JavaScript adds interactivity. Start with DOM manipulation and event handling before moving to frameworks.</p>
-      
-      <blockquote>Design is not just what it looks like and feels like. Design is how it works. — Steve Jobs</blockquote>
-      
-      <h2>Tools for Designer-Developers</h2>
-      <p>Several tools are designed specifically for designers who code:</p>
+      <h2>Memilih Bahasa Pemrograman Pertama</h2>
+      <p>Untuk pemula, berikut rekomendasi bahasa pemrograman:</p>
       <ul>
-        <li><strong>Figma:</strong> Design tool with developer handoff features</li>
-        <li><strong>VS Code:</strong> Code editor with excellent design-friendly extensions</li>
-        <li><strong>CodePen:</strong> Browser-based environment for experimenting with code</li>
-        <li><strong>Storybook:</strong> Tool for building and documenting UI components</li>
+        <li><strong>Python:</strong> Sintaks sederhana, cocok untuk pemula, banyak digunakan di data science dan AI</li>
+        <li><strong>JavaScript:</strong> Bahasa web yang versatile, bisa untuk frontend dan backend</li>
+        <li><strong>HTML/CSS:</strong> Fondasi untuk web development, mudah dipelajari</li>
       </ul>
       
-      <h2>The Future is Hybrid</h2>
-      <p>As design systems and component libraries become standard, the ability to work across disciplines becomes increasingly valuable. The designers who thrive will be those who can translate their vision into working code.</p>
+      <blockquote>Bahasa pemrograman terbaik untuk dipelajari adalah bahasa yang akan Anda gunakan. Pilih berdasarkan tujuan Anda.</blockquote>
+      
+      <h2>Langkah-langkah Belajar</h2>
+      <ul>
+        <li><strong>Pahami konsep dasar:</strong> Variabel, tipe data, kondisional, loop</li>
+        <li><strong>Praktik setiap hari:</strong> Konsistensi lebih penting dari durasi</li>
+        <li><strong>Bangun proyek:</strong> Terapkan ilmu dengan membuat proyek nyata</li>
+        <li><strong>Bergabung komunitas:</strong> Belajar dari programmer lain</li>
+      </ul>
+      
+      <h2>Resources Belajar Gratis</h2>
+      <p>Banyak sumber belajar berkualitas yang tersedia gratis:</p>
+      <ul>
+        <li>freeCodeCamp - Kurikulum lengkap web development</li>
+        <li>Codecademy - Pembelajaran interaktif</li>
+        <li>YouTube - Tutorial dari berbagai creator</li>
+        <li>MDN Web Docs - Dokumentasi web development</li>
+      </ul>
+      
+      <h2>Kesimpulan</h2>
+      <p>Belajar programming adalah investasi jangka panjang yang sangat berharga. Mulailah dengan langkah kecil, tetap konsisten, dan jangan takut membuat kesalahan. Setiap programmer handal pernah menjadi pemula.</p>
     `,
-    category: 'Tech',
-    date: 'Oct 20, 2023',
-    readTime: '8 min read',
+    category: 'Teknologi',
+    date: '15 Des 2024',
+    readTime: '9 menit baca',
     imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&q=80',
     author: {
-      name: 'Alex Kim',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80',
-      role: 'Product Designer'
+      name: 'Dimas Prasetyo',
+      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80',
+      role: 'Software Developer'
     },
-    tags: ['Coding', 'Design', 'Web Development', 'Career']
+    tags: ['Programming', 'Tutorial', 'Pemula', 'Teknologi']
   },
   {
     id: '5',
-    slug: 'sustainable-living',
-    title: 'Sustainable Living 101',
-    excerpt: 'Small changes you can make in your daily routine to reduce your environmental footprint.',
+    slug: 'gaya-hidup-minimalis-modern',
+    title: 'Menerapkan Gaya Hidup Minimalis di Era Modern',
+    excerpt: 'Pelajari bagaimana gaya hidup minimalis dapat meningkatkan kualitas hidup dan mengurangi stres di tengah kesibukan modern.',
     content: `
-      <p>Climate change can feel overwhelming, but individual actions do matter. While systemic change is essential, the choices we make in our daily lives collectively have a significant impact. Here's how to start living more sustainably without completely overhauling your lifestyle.</p>
+      <p>Di tengah budaya konsumerisme yang semakin kuat, gaya hidup minimalis menawarkan alternatif yang menyegarkan. Minimalis bukan tentang memiliki sedikit, tetapi tentang memiliki yang bermakna.</p>
       
-      <h2>Start in the Kitchen</h2>
-      <p>Food production accounts for about 26% of global greenhouse gas emissions. Small changes in how we eat can make a big difference:</p>
+      <h2>Apa Itu Gaya Hidup Minimalis?</h2>
+      <p>Minimalis adalah filosofi hidup yang fokus pada hal-hal esensial dan menghilangkan yang tidak perlu. Ini mencakup barang fisik, komitmen waktu, hingga hubungan sosial.</p>
+      
+      <h2>Manfaat Gaya Hidup Minimalis</h2>
       <ul>
-        <li><strong>Reduce food waste:</strong> Plan meals, use leftovers creatively, and compost what you can't eat.</li>
-        <li><strong>Eat more plants:</strong> You don't have to go fully vegan—even reducing meat consumption by one day a week helps.</li>
-        <li><strong>Buy local and seasonal:</strong> Reduces transportation emissions and supports local farmers.</li>
-        <li><strong>Avoid single-use plastics:</strong> Bring reusable bags, containers, and water bottles.</li>
+        <li><strong>Mengurangi stres:</strong> Lebih sedikit barang berarti lebih sedikit yang perlu diurus</li>
+        <li><strong>Hemat finansial:</strong> Membeli hanya yang benar-benar dibutuhkan</li>
+        <li><strong>Lebih fokus:</strong> Energi terarah pada hal yang penting</li>
+        <li><strong>Ramah lingkungan:</strong> Mengurangi konsumsi dan limbah</li>
       </ul>
       
-      <h2>Rethink Transportation</h2>
-      <p>Transportation is another major source of emissions. Consider these alternatives:</p>
+      <blockquote>Minimalis bukan tentang kekurangan, tetapi tentang kebebasan dari kelebihan yang tidak bermakna.</blockquote>
+      
+      <h2>Cara Memulai</h2>
+      <p>Berikut langkah-langkah praktis untuk memulai:</p>
       <ul>
-        <li>Walk or bike for short trips</li>
-        <li>Use public transportation when possible</li>
-        <li>Carpool or use ride-sharing services</li>
-        <li>If buying a car, consider electric or hybrid options</li>
+        <li><strong>Declutter bertahap:</strong> Mulai dari satu area, seperti lemari pakaian</li>
+        <li><strong>Aturan satu masuk satu keluar:</strong> Setiap barang baru yang masuk, satu barang lama keluar</li>
+        <li><strong>Tunda pembelian:</strong> Tunggu 30 hari sebelum membeli barang non-esensial</li>
+        <li><strong>Digital declutter:</strong> Bersihkan juga file, email, dan aplikasi yang tidak terpakai</li>
       </ul>
       
-      <blockquote>We don't need a handful of people doing zero waste perfectly. We need millions of people doing it imperfectly. — Anne Marie Bonneau</blockquote>
-      
-      <h2>Energy at Home</h2>
-      <p>Simple changes can significantly reduce your home energy consumption:</p>
+      <h2>Minimalis di Berbagai Aspek</h2>
+      <p>Terapkan minimalis tidak hanya pada barang:</p>
       <ul>
-        <li><strong>Switch to LED bulbs:</strong> They use 75% less energy than incandescent bulbs.</li>
-        <li><strong>Unplug devices:</strong> "Phantom load" from plugged-in devices wastes energy.</li>
-        <li><strong>Adjust your thermostat:</strong> Even 1-2 degrees makes a difference.</li>
-        <li><strong>Consider renewable energy:</strong> Many utilities offer green energy options.</li>
+        <li>Jadwal: Kurangi komitmen yang tidak penting</li>
+        <li>Digital: Batasi waktu di media sosial</li>
+        <li>Hubungan: Fokus pada hubungan yang bermakna</li>
+        <li>Pikiran: Praktikkan mindfulness</li>
       </ul>
       
-      <h2>The Mindset Shift</h2>
-      <p>Perhaps the most important change is shifting from a consumption mindset to a stewardship mindset. Before buying something new, ask yourself:</p>
-      <ul>
-        <li>Do I really need this?</li>
-        <li>Can I borrow, rent, or buy it secondhand?</li>
-        <li>How long will it last?</li>
-        <li>What happens to it when I'm done with it?</li>
-      </ul>
-      
-      <p>Sustainable living isn't about perfection—it's about progress. Start with one or two changes, build habits, and gradually expand your efforts. Every action counts.</p>
+      <h2>Kesimpulan</h2>
+      <p>Gaya hidup minimalis adalah perjalanan personal yang berbeda untuk setiap orang. Tidak ada aturan baku tentang berapa banyak barang yang boleh dimiliki. Yang penting adalah setiap hal dalam hidup Anda membawa nilai dan kebahagiaan.</p>
     `,
-    category: 'Lifestyle',
-    date: 'Oct 18, 2023',
-    readTime: '6 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&q=80',
+    category: 'Gaya Hidup',
+    date: '14 Des 2024',
+    readTime: '6 menit baca',
+    imageUrl: 'https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=1200&q=80',
     author: {
-      name: 'Maya Patel',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80',
-      role: 'Sustainability Editor'
+      name: 'Maya Putri',
+      avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80',
+      role: 'Lifestyle Writer'
     },
-    tags: ['Sustainability', 'Environment', 'Lifestyle', 'Green Living']
+    tags: ['Minimalis', 'Gaya Hidup', 'Self Improvement', 'Tips']
   },
   {
     id: '6',
-    slug: 'future-web-design',
-    title: 'The Future of Web Design in 2024',
-    excerpt: 'An in-depth look at the trends shaping the internet. From AI-generated layouts to maximalist typography.',
+    slug: 'tren-teknologi-2025',
+    title: 'Tren Teknologi yang Akan Mendominasi Tahun 2025',
+    excerpt: 'Intip perkembangan teknologi terbaru yang diprediksi akan mengubah cara kita hidup dan bekerja di tahun mendatang.',
     content: `
-      <p>Web design is evolving faster than ever. As we look ahead to 2024, several trends are emerging that will reshape how we create and experience the web.</p>
+      <p>Teknologi terus berkembang dengan kecepatan yang luar biasa. Tahun 2025 diprediksi akan membawa berbagai inovasi yang akan mengubah berbagai aspek kehidupan kita. Mari kita lihat tren-tren utamanya.</p>
       
-      <h2>AI-Powered Design</h2>
-      <p>Artificial intelligence is no longer just a buzzword—it's becoming an integral part of the design process. From generating layouts to writing copy, AI tools are augmenting human creativity:</p>
+      <h2>Artificial Intelligence (AI) Generatif</h2>
+      <p>AI generatif seperti ChatGPT dan DALL-E akan semakin canggih dan terintegrasi dalam berbagai aplikasi. Dari pembuatan konten hingga coding, AI akan menjadi asisten yang semakin handal.</p>
+      
+      <h2>Internet of Things (IoT) yang Lebih Cerdas</h2>
+      <p>Perangkat IoT akan semakin pintar dan saling terhubung. Smart home akan menjadi lebih terjangkau dan mudah digunakan, dengan integrasi yang lebih seamless antar perangkat.</p>
+      
+      <blockquote>Teknologi terbaik adalah teknologi yang tidak terasa seperti teknologi. Ia menyatu dengan kehidupan sehari-hari.</blockquote>
+      
+      <h2>Tren Utama 2025</h2>
       <ul>
-        <li><strong>Generative design:</strong> AI can create multiple design variations based on constraints and preferences.</li>
-        <li><strong>Personalization at scale:</strong> Websites that adapt in real-time to individual users.</li>
-        <li><strong>Automated accessibility:</strong> AI tools that identify and fix accessibility issues.</li>
+        <li><strong>Edge Computing:</strong> Pemrosesan data lebih dekat ke sumber untuk respons lebih cepat</li>
+        <li><strong>5G dan Beyond:</strong> Konektivitas super cepat yang membuka peluang baru</li>
+        <li><strong>Sustainable Tech:</strong> Teknologi ramah lingkungan menjadi prioritas</li>
+        <li><strong>Extended Reality (XR):</strong> VR dan AR yang lebih immersive</li>
       </ul>
       
-      <h2>The Return of Maximalism</h2>
-      <p>After years of minimalist dominance, we're seeing a shift toward bolder, more expressive designs:</p>
+      <h2>Dampak pada Dunia Kerja</h2>
+      <p>Teknologi akan terus mengubah cara kita bekerja:</p>
       <ul>
-        <li>Large, experimental typography</li>
-        <li>Vibrant color palettes</li>
-        <li>Complex layouts and overlapping elements</li>
-        <li>Rich animations and micro-interactions</li>
+        <li>Remote work yang semakin canggih dengan tools kolaborasi baru</li>
+        <li>Automasi yang meningkatkan efisiensi</li>
+        <li>Skill baru yang dibutuhkan di pasar kerja</li>
+        <li>Peluang karir di bidang teknologi yang terus bertumbuh</li>
       </ul>
       
-      <blockquote>Good design is obvious. Great design is transparent. — Joe Sparano</blockquote>
-      
-      <h2>Immersive Experiences</h2>
-      <p>The line between websites and applications continues to blur. Users expect immersive, app-like experiences:</p>
+      <h2>Bagaimana Mempersiapkan Diri?</h2>
+      <p>Untuk tetap relevan di era teknologi yang cepat berubah:</p>
       <ul>
-        <li><strong>3D elements:</strong> WebGL and Three.js are making 3D more accessible.</li>
-        <li><strong>Scroll-triggered animations:</strong> Storytelling through scrolling.</li>
-        <li><strong>Spatial interfaces:</strong> Preparing for AR/VR integration.</li>
+        <li>Terus belajar dan upgrade skill</li>
+        <li>Ikuti perkembangan teknologi terbaru</li>
+        <li>Eksperimen dengan tools dan platform baru</li>
+        <li>Bangun network dengan profesional di bidang teknologi</li>
       </ul>
       
-      <h2>Performance as a Feature</h2>
-      <p>With Core Web Vitals affecting search rankings, performance is no longer optional:</p>
-      <ul>
-        <li>Edge computing and CDNs</li>
-        <li>Image optimization and lazy loading</li>
-        <li>Code splitting and tree shaking</li>
-        <li>Server-side rendering and static generation</li>
-      </ul>
-      
-      <h2>Sustainable Web Design</h2>
-      <p>The environmental impact of the internet is gaining attention. Sustainable web design focuses on:</p>
-      <ul>
-        <li>Reducing page weight and data transfer</li>
-        <li>Choosing green hosting providers</li>
-        <li>Optimizing for energy efficiency</li>
-        <li>Designing for longevity</li>
-      </ul>
-      
-      <p>The future of web design is exciting, challenging, and full of possibilities. The designers who thrive will be those who embrace new technologies while staying grounded in timeless principles of good design.</p>
+      <h2>Kesimpulan</h2>
+      <p>Tahun 2025 akan menjadi tahun yang menarik bagi perkembangan teknologi. Dengan memahami tren ini, kita bisa lebih siap menghadapi perubahan dan memanfaatkan peluang yang ada.</p>
     `,
-    category: 'Technology',
-    date: 'Oct 24, 2023',
-    readTime: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1200&q=80',
+    category: 'Teknologi',
+    date: '13 Des 2024',
+    readTime: '7 menit baca',
+    imageUrl: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&q=80',
     author: {
-      name: 'Jordan Lee',
-      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80',
-      role: 'Tech Editor'
+      name: 'Reza Firmansyah',
+      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80',
+      role: 'Tech Analyst'
     },
-    tags: ['Web Design', 'Technology', 'Trends', 'AI', 'UX']
+    tags: ['Teknologi', 'AI', 'Tren', 'Inovasi']
+  }
+]
+
+export interface Category {
+  slug: string
+  name: string
+  description: string
+  color: string
+  icon: string
+}
+
+const categories: Category[] = [
+  {
+    slug: 'teknologi',
+    name: 'Teknologi',
+    description: 'Berita dan insight terbaru seputar teknologi, programming, AI, dan inovasi digital.',
+    color: 'bg-blue-500',
+    icon: 'solar:cpu-bolt-linear'
+  },
+  {
+    slug: 'desain',
+    name: 'Desain',
+    description: 'Tips dan tutorial desain UI/UX, grafis, dan inspirasi visual untuk kreator.',
+    color: 'bg-purple-500',
+    icon: 'solar:pallete-2-linear'
+  },
+  {
+    slug: 'gaya-hidup',
+    name: 'Gaya Hidup',
+    description: 'Artikel tentang produktivitas, kesehatan, minimalis, dan pengembangan diri.',
+    color: 'bg-pink-500',
+    icon: 'solar:heart-pulse-linear'
+  },
+  {
+    slug: 'travel',
+    name: 'Travel',
+    description: 'Panduan destinasi, tips perjalanan, dan cerita petualangan dari berbagai penjuru.',
+    color: 'bg-green-500',
+    icon: 'solar:airplane-linear'
+  },
+  {
+    slug: 'produktivitas',
+    name: 'Produktivitas',
+    description: 'Strategi dan tools untuk meningkatkan efisiensi kerja dan manajemen waktu.',
+    color: 'bg-orange-500',
+    icon: 'solar:chart-2-linear'
   }
 ]
 
@@ -363,9 +387,29 @@ export const useBlogPosts = () => {
       .slice(0, limit)
   }
 
+  const getAllCategories = (): Category[] => {
+    return categories
+  }
+
+  const getCategoryBySlug = (slug: string): Category | undefined => {
+    return categories.find(cat => cat.slug === slug.toLowerCase())
+  }
+
+  const getPostsByCategory = (categorySlug: string): BlogPost[] => {
+    return blogPosts.filter(post => post.category.toLowerCase().replace(' ', '-') === categorySlug.toLowerCase())
+  }
+
+  const getCategoryPostCount = (categorySlug: string): number => {
+    return getPostsByCategory(categorySlug).length
+  }
+
   return {
     getPostBySlug,
     getAllPosts,
-    getRelatedPosts
+    getRelatedPosts,
+    getAllCategories,
+    getCategoryBySlug,
+    getPostsByCategory,
+    getCategoryPostCount
   }
 }

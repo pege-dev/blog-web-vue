@@ -4,20 +4,20 @@ definePageMeta({
 })
 
 useSeoMeta({
-  title: 'Disclaimer - The Daily Blog',
-  description: 'Read our disclaimer about the information provided on The Daily Blog website.',
-  ogTitle: 'Disclaimer - The Daily Blog',
-  ogDescription: 'Important information about the content on our website.',
+  title: 'Disclaimer - ideidetsploshad',
+  description: 'Baca disclaimer tentang informasi yang disediakan di website ideidetsploshad. Pahami batasan tanggung jawab kami.',
+  ogTitle: 'Disclaimer - ideidetsploshad',
+  ogDescription: 'Informasi penting tentang konten di website kami.',
   twitterCard: 'summary'
 })
 
 const sections = [
-  { id: 'intro', title: 'General Information' },
-  { id: 'accuracy', title: 'Accuracy of Information' },
-  { id: 'professional', title: 'No Professional Advice' },
-  { id: 'external', title: 'External Links' },
-  { id: 'liability', title: 'Limitation of Liability' },
-  { id: 'contact', title: 'Contact Us' }
+  { id: 'intro', title: 'Informasi Umum' },
+  { id: 'accuracy', title: 'Akurasi Informasi' },
+  { id: 'professional', title: 'Bukan Nasihat Profesional' },
+  { id: 'external', title: 'Tautan Eksternal' },
+  { id: 'liability', title: 'Batasan Tanggung Jawab' },
+  { id: 'contact', title: 'Hubungi Kami' }
 ]
 
 const activeSection = ref('intro')
@@ -28,7 +28,6 @@ const activeSection = ref('intro')
   <LegalSidebar 
     :sections="sections" 
     :active-section="activeSection"
-    contact-email="support@dailyblog.com"
   />
 
   <!-- Main Content -->
@@ -40,7 +39,7 @@ const activeSection = ref('intro')
       </h1>
       <div class="flex items-center gap-2 text-slate-500 dark:text-text-secondary">
         <Icon name="solar:clock-circle-linear" class="text-lg" />
-        <p class="text-sm font-medium font-sans">Last Updated: December 18, 2024</p>
+        <p class="text-sm font-medium font-sans">Terakhir Diperbarui: 18 Desember 2024</p>
       </div>
     </div>
 
@@ -49,25 +48,25 @@ const activeSection = ref('intro')
       <!-- Intro -->
       <section id="intro" class="scroll-mt-28">
         <p>
-          The information provided on <strong>The Daily Blog</strong> (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind regarding the accuracy, validity, reliability, availability, or completeness of any information on the Site.
+          Informasi yang disediakan di <strong>ideidetsploshad.info</strong> ("Situs") hanya untuk tujuan informasi umum. Semua informasi di Situs disediakan dengan itikad baik, namun kami tidak membuat pernyataan atau jaminan apa pun mengenai keakuratan, validitas, keandalan, ketersediaan, atau kelengkapan informasi apa pun di Situs.
         </p>
         <p class="mt-4">
-          Under no circumstance shall we have any liability to you for any loss or damage incurred as a result of the use of the site or reliance on any information provided. Your use of the site is solely at your own risk.
+          Dalam keadaan apa pun kami tidak bertanggung jawab kepada Anda atas kerugian atau kerusakan yang timbul sebagai akibat dari penggunaan situs atau ketergantungan pada informasi yang diberikan. Penggunaan situs sepenuhnya merupakan risiko Anda sendiri.
         </p>
       </section>
 
       <!-- Accuracy -->
       <section id="accuracy" class="scroll-mt-28">
         <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-4 relative inline-block">
-          1. Accuracy of Information
+          1. Akurasi Informasi
           <span class="absolute -bottom-1 left-0 w-12 h-1 bg-primary rounded-full"></span>
         </h2>
         <p>
-          While we strive to provide accurate and up-to-date information, the content on this blog may not reflect the most current developments. We do not guarantee that the information provided is error-free.
+          Meskipun kami berusaha untuk memberikan informasi yang akurat dan terkini, konten di blog ini mungkin tidak mencerminkan perkembangan terbaru. Kami tidak menjamin bahwa informasi yang diberikan bebas dari kesalahan.
         </p>
         <div class="mt-4 p-4 bg-primary/10 border-l-4 border-primary rounded-r-lg">
           <p class="text-sm text-slate-700 dark:text-slate-200 italic">
-            Note: Information changes rapidly. Always verify important details with official sources.
+            Catatan: Informasi berubah dengan cepat. Selalu verifikasi detail penting dengan sumber resmi.
           </p>
         </div>
       </section>
@@ -75,57 +74,57 @@ const activeSection = ref('intro')
       <!-- Professional Advice -->
       <section id="professional" class="scroll-mt-28">
         <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-4 relative inline-block">
-          2. No Professional Advice
+          2. Bukan Nasihat Profesional
           <span class="absolute -bottom-1 left-0 w-12 h-1 bg-primary rounded-full"></span>
         </h2>
         <p>
-          The Site cannot and does not contain medical, legal, fitness, or financial advice. The information is provided for general informational and educational purposes only and is not a substitute for professional advice.
+          Situs tidak dapat dan tidak berisi nasihat medis, hukum, kebugaran, atau keuangan. Informasi disediakan hanya untuk tujuan informasi umum dan pendidikan dan bukan pengganti nasihat profesional.
         </p>
         <p class="mt-3">
-          Before taking any actions based upon such information, we encourage you to consult with the appropriate professionals.
+          Sebelum mengambil tindakan berdasarkan informasi tersebut, kami mendorong Anda untuk berkonsultasi dengan profesional yang sesuai.
         </p>
       </section>
 
       <!-- External Links -->
       <section id="external" class="scroll-mt-28">
         <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-4 relative inline-block">
-          3. External Links Disclaimer
+          3. Disclaimer Tautan Eksternal
           <span class="absolute -bottom-1 left-0 w-12 h-1 bg-primary rounded-full"></span>
         </h2>
         <p>
-          The Site may contain links to other websites or content belonging to third parties. Such external links are not investigated, monitored, or checked for accuracy by us.
+          Situs mungkin berisi tautan ke website atau konten lain milik pihak ketiga. Tautan eksternal tersebut tidak diselidiki, dipantau, atau diperiksa keakuratannya oleh kami.
         </p>
         <p class="mt-3">
-          We do not warrant, endorse, guarantee, or assume responsibility for the accuracy or reliability of any information offered by third-party websites.
+          Kami tidak menjamin, mendukung, menjamin, atau bertanggung jawab atas keakuratan atau keandalan informasi apa pun yang ditawarkan oleh website pihak ketiga.
         </p>
       </section>
 
       <!-- Liability -->
       <section id="liability" class="scroll-mt-28">
         <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-4 relative inline-block">
-          4. Limitation of Liability
+          4. Batasan Tanggung Jawab
           <span class="absolute -bottom-1 left-0 w-12 h-1 bg-primary rounded-full"></span>
         </h2>
         <p>
-          In no event shall The Daily Blog, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses.
+          Dalam keadaan apa pun ideidetsploshad, maupun direktur, karyawan, mitra, agen, pemasok, atau afiliasinya, tidak bertanggung jawab atas kerusakan tidak langsung, insidental, khusus, konsekuensial, atau hukuman, termasuk tanpa batasan, kehilangan keuntungan, data, penggunaan, goodwill, atau kerugian tidak berwujud lainnya.
         </p>
       </section>
 
       <!-- Contact -->
       <section id="contact" class="scroll-mt-28">
         <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-4 relative inline-block">
-          5. Contact Us
+          5. Hubungi Kami
           <span class="absolute -bottom-1 left-0 w-12 h-1 bg-primary rounded-full"></span>
         </h2>
         <p class="mb-6">
-          If you have any questions about this Disclaimer, please contact us.
+          Jika Anda memiliki pertanyaan tentang Disclaimer ini, silakan hubungi kami.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
           <NuxtLink to="/contact" class="inline-flex justify-center items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg shadow-sm text-white bg-primary hover:bg-primary/90 transition-all font-sans">
-            Contact Support
+            Hubungi Kami
           </NuxtLink>
           <NuxtLink to="/" class="inline-flex justify-center items-center px-6 py-3 border border-slate-300 dark:border-border-dark text-base font-medium rounded-lg text-slate-700 dark:text-white bg-white dark:bg-card-dark hover:bg-slate-50 dark:hover:bg-card-dark/80 transition-all font-sans">
-            Back to Home
+            Kembali ke Beranda
           </NuxtLink>
         </div>
       </section>

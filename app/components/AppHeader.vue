@@ -2,9 +2,10 @@
 const isMenuOpen = ref(false)
 
 const navLinks = [
-  { name: 'Home', href: '/' },
+  { name: 'Beranda', href: '/' },
   { name: 'Blog', href: '/blog' },
-  { name: 'Contact', href: '/contact' }
+  { name: 'Kategori', href: '/category' },
+  { name: 'Kontak', href: '/contact' }
 ]
 </script>
 
@@ -14,10 +15,10 @@ const navLinks = [
       <div class="flex h-16 items-center justify-between">
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center gap-3">
-          <div class="flex items-center justify-center size-8 rounded-lg bg-primary/20 text-primary">
-            <Icon name="solar:document-text-bold" class="text-xl" />
-          </div>
-          <h1 class="text-xl font-bold tracking-tight font-display text-slate-900 dark:text-white">The Daily Blog</h1>
+          <img src="/favicon.svg" alt="ideidetsploshad" class="size-8" />
+          <h1 class="text-xl font-bold tracking-tight font-display text-slate-900 dark:text-white">
+            <span class="text-primary">ide</span>idetsploshad
+          </h1>
         </NuxtLink>
 
         <!-- Desktop Navigation -->
@@ -38,7 +39,7 @@ const navLinks = [
             <Icon name="solar:magnifer-linear" class="text-xl" />
           </button>
           <button class="bg-primary hover:bg-primary/90 text-white dark:text-surface-dark font-bold py-2 px-5 rounded-lg text-sm transition-colors shadow-lg shadow-primary/20 font-sans">
-            Subscribe
+            Langganan
           </button>
           <!-- Mobile Menu Button -->
           <button 

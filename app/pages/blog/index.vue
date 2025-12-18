@@ -1,14 +1,14 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Blog - The Daily Blog',
-  description: 'Discover insights, trends, and perspectives from our team of writers on technology, design, and modern life.',
-  ogTitle: 'Blog - The Daily Blog',
-  ogDescription: 'Discover insights, trends, and perspectives on technology, design, and modern life.',
+  title: 'Blog - ideidetsploshad | Kumpulan Artikel Inspiratif',
+  description: 'Jelajahi koleksi artikel berkualitas tentang teknologi, desain, gaya hidup, dan perjalanan. Temukan wawasan baru setiap hari.',
+  ogTitle: 'Blog - ideidetsploshad | Kumpulan Artikel Inspiratif',
+  ogDescription: 'Jelajahi koleksi artikel berkualitas tentang teknologi, desain, gaya hidup, dan perjalanan.',
   twitterCard: 'summary_large_image'
 })
 
-const categories = ['All Categories', 'Technology', 'Design', 'Lifestyle', 'Culture']
-const activeCategory = ref('All Categories')
+const categories = ['Semua Kategori', 'Teknologi', 'Desain', 'Gaya Hidup', 'Travel', 'Produktivitas']
+const activeCategory = ref('Semua Kategori')
 const currentPage = ref(1)
 const totalPages = 8
 
@@ -16,7 +16,7 @@ const { getAllPosts } = useBlogPosts()
 const blogPosts = getAllPosts()
 
 const filteredPosts = computed(() => {
-  if (activeCategory.value === 'All Categories') {
+  if (activeCategory.value === 'Semua Kategori') {
     return blogPosts
   }
   return blogPosts.filter(post => post.category === activeCategory.value)
@@ -31,9 +31,9 @@ const handleSearch = (query: string) => {
   <div class="container mx-auto px-4 lg:px-8 max-w-[1280px] py-8 lg:py-12">
     <!-- Hero & Search Section -->
     <section class="mb-12 max-w-4xl mx-auto text-center space-y-6">
-      <h1 class="text-4xl md:text-5xl font-black tracking-tight leading-[1.1] font-display">Explore our latest stories</h1>
+      <h1 class="text-4xl md:text-5xl font-black tracking-tight leading-[1.1] font-display">Jelajahi cerita terbaru kami</h1>
       <p class="text-lg text-gray-600 dark:text-text-secondary max-w-2xl mx-auto font-display">
-        Discover insights, trends, and perspectives from our team of writers on technology, design, and modern life.
+        Temukan wawasan, tren, dan perspektif dari tim penulis kami tentang teknologi, desain, dan kehidupan modern.
       </p>
       
       <!-- Filters -->

@@ -1,4 +1,4 @@
-# ads.txt file for The Daily Blog
+# ads.txt file for ideidetsploshad.info
 # Replace XXXXXXXXXXXXXXXX with your actual Google AdSense Publisher ID
 # Format: <domain>, <publisher-id>, <relationship>, <certification-authority-id>
 

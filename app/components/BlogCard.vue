@@ -11,7 +11,7 @@ interface Props {
 }
 
 withDefaults(defineProps<Props>(), {
-  readTime: '5 min read',
+  readTime: '5 menit baca',
   href: '#',
   variant: 'simple'
 })
@@ -29,7 +29,7 @@ withDefaults(defineProps<Props>(), {
     </NuxtLink>
     <div class="flex flex-col gap-2">
       <div class="flex items-center gap-2">
-        <span class="text-xs font-bold text-primary uppercase tracking-wide font-sans">{{ category }}</span>
+        <NuxtLink :to="`/category/${category.toLowerCase()}`" class="text-xs font-bold text-primary uppercase tracking-wide font-sans hover:underline">{{ category }}</NuxtLink>
         <span class="text-xs text-slate-500 dark:text-slate-600">•</span>
         <span class="text-xs text-slate-500 dark:text-slate-600 font-sans">{{ date }}</span>
       </div>
@@ -51,9 +51,9 @@ withDefaults(defineProps<Props>(), {
         :style="{ backgroundImage: `url('${imageUrl}')` }"
         :aria-label="title"
       ></div>
-      <div class="absolute top-4 left-4 bg-primary/90 text-white dark:text-surface-dark text-xs font-bold px-3 py-1 rounded-full backdrop-blur-sm">
+      <NuxtLink :to="`/category/${category.toLowerCase()}`" class="absolute top-4 left-4 bg-primary/90 text-white dark:text-surface-dark text-xs font-bold px-3 py-1 rounded-full backdrop-blur-sm hover:bg-primary transition-colors">
         {{ category }}
-      </div>
+      </NuxtLink>
     </NuxtLink>
     <div class="flex flex-col flex-1 p-6">
       <div class="flex items-center gap-2 text-xs font-medium text-gray-500 dark:text-gray-400 mb-3">
@@ -70,7 +70,7 @@ withDefaults(defineProps<Props>(), {
       </p>
       <div class="mt-auto pt-4 border-t border-gray-100 dark:border-white/10 flex items-center justify-between">
         <NuxtLink :to="href" class="inline-flex items-center gap-1 text-primary font-bold text-sm hover:gap-2 transition-all font-sans">
-          Read More <Icon name="solar:arrow-right-linear" class="text-lg" />
+          Baca Selengkapnya <Icon name="solar:arrow-right-linear" class="text-lg" />
         </NuxtLink>
         <button class="text-gray-400 hover:text-primary transition-colors" aria-label="Bookmark">
           <Icon name="solar:bookmark-linear" class="text-xl" />

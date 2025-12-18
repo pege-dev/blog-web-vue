@@ -9,8 +9,8 @@ interface Props {
 }
 
 withDefaults(defineProps<Props>(), {
-  category: 'Featured Story',
-  readTime: '8 min read',
+  category: 'Artikel Pilihan',
+  readTime: '8 menit baca',
   href: '#'
 })
 </script>
@@ -43,7 +43,7 @@ withDefaults(defineProps<Props>(), {
               :to="href"
               class="flex h-10 items-center justify-center rounded-lg bg-primary px-5 text-surface-dark text-sm font-bold shadow-sm hover:bg-primary/90 transition-colors font-sans"
             >
-              Read Now
+              Baca Sekarang
             </NuxtLink>
             <span class="text-xs text-slate-500 dark:text-slate-600 font-sans">{{ readTime }}</span>
           </div>
