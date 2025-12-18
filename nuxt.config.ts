@@ -5,6 +5,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
+  site: {
+    url: 'https://ideidetsploshad.info',
+    name: 'ideidetsploshad'
+  },
+
   app: {
     head: {
       htmlAttrs: {
@@ -32,8 +37,15 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxt/icon'
+    '@nuxt/icon',
+    '@nuxtjs/sitemap'
   ],
+
+  sitemap: {
+    sources: [
+      '/api/__sitemap__/urls'
+    ]
+  },
 
   icon: {
     serverBundle: 'remote',
