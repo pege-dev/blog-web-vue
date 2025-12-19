@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const isMenuOpen = ref(false)
+const { openModal } = useSubscribe()
 
 const navLinks = [
   { name: 'Beranda', href: '/' },
@@ -38,7 +39,10 @@ const navLinks = [
           <button class="hidden sm:flex items-center justify-center size-10 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-slate-600 dark:text-white">
             <Icon name="solar:magnifer-linear" class="text-xl" />
           </button>
-          <button class="bg-primary hover:bg-primary/90 text-white dark:text-surface-dark font-bold py-2 px-5 rounded-lg text-sm transition-colors shadow-lg shadow-primary/20 font-sans">
+          <button 
+            @click="openModal"
+            class="bg-primary hover:bg-primary/90 text-white dark:text-surface-dark font-bold py-2 px-5 rounded-lg text-sm transition-colors shadow-lg shadow-primary/20 font-sans"
+          >
             Langganan
           </button>
           <!-- Mobile Menu Button -->

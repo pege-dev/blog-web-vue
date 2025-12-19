@@ -91,22 +91,18 @@ const shareToFacebook = () => {
 
 const shareToLinkedIn = () => {
   const url = encodeURIComponent(window.location.href)
-  const title = encodeURIComponent(post.title)
   window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank')
   showShareMenu.value = false
 }
 
 const shareToWhatsApp = () => {
-  const url = encodeURIComponent(window.location.href)
   const text = encodeURIComponent(`${post.title} - ${window.location.href}`)
   window.open(`https://wa.me/?text=${text}`, '_blank')
   showShareMenu.value = false
 }
 
-// Close share menu when clicking outside
-const closeShareMenu = () => {
-  showShareMenu.value = false
-}
+// Subscribe modal
+const { openModal } = useSubscribe()
 </script>
 
 <template>
@@ -342,9 +338,12 @@ const closeShareMenu = () => {
               <Icon name="solar:letter-bold" class="text-2xl text-primary mb-2" />
               <p class="font-bold text-gray-900 dark:text-white mb-1 font-display">Tetap update</p>
               <p class="text-sm text-gray-600 dark:text-gray-400 mb-3 font-sans">Dapatkan artikel seperti ini di inbox kamu.</p>
-              <NuxtLink to="/" class="block w-full text-center py-2 bg-primary text-white dark:text-surface-dark rounded-lg text-sm font-bold hover:bg-primary/90 transition-colors font-sans">
+              <button 
+                @click="openModal"
+                class="block w-full text-center py-2 bg-primary text-white dark:text-surface-dark rounded-lg text-sm font-bold hover:bg-primary/90 transition-colors font-sans"
+              >
                 Langganan
-              </NuxtLink>
+              </button>
             </div>
           </div>
         </aside>
